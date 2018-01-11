@@ -7,9 +7,6 @@
     <script src="js/scripts.js"></script>
     <title>Voting</title>
   </head>
-  <!--prompt user to enter age
-if they are or are over 18, show them information about how to register to vote
-if they are under 18, show them information about the voting process & age reqs-->
   <body>
     <div class="container">
       <div id="over-18">
@@ -17,22 +14,31 @@ if they are under 18, show them information about the voting process & age reqs-
           <h1>Voting Basics</h1>
           <p>Get information here about how to vote in Oregon</p>
         </div>
-        <h2>Where to register to vote</h2>
-        <h2>Find your polling location/ballot dropbox</h2>
-        <h2>Upcoming elections</h2>
+        <div class="voting">
+          <h2>Where to register to vote</h2>
+          <p>If you have a driver license number, you can register to vote online at the <a href="http://sos.oregon.gov/voting/Pages/registration.aspx?lang=en">Oregon Secretary of State.</a></p>
+          <p>If you do not have a driver license number or the SOS is unable to verify your number, you can still fill out the registration forms online but you will need to print out the registration form, sign it, and mail it to you county elections office.</p>
+          <p>If you need to update your registration, you may do so <a href="http://sos.oregon.gov/voting/Pages/updatevoterregistration.aspx">here</a></p>
+          <h2>Find your polling location/ballot dropbox</h2>
+          <p>Voting in Oregon is done by mail, so there are no polling locations. However, you can drop your ballot off at any number of ballot dropbox locations. The <a href="http://sos.oregon.gov/voting/Pages/drop-box-locator.aspx">Oregon Drop Box Locator</a> can help you find your nearest location.</p>
+          <h2>Upcoming elections</h2>
+          <p>For current and upcoming elections, please <a href="http://sos.oregon.gov/voting/Pages/current-election.aspx">click here</a></p>
+        </div>
       </div>
-
-
       <div id="under-18">
         <div class="jumbotron">
           <h1>Voting Basics</h1>
           <p>Learn about the voting process in Oregon</p>
         </div>
+        <div class="voting">
           <h2>Age requirements</h2>
+          <p>Click on "Age and Citizenship Concerns" on <a href="http://sos.oregon.gov/voting/Pages/voteinor.aspx">this website</a> to get more information about age requirements for voting.</p>
           <h2>History of voting in Oregon</h2>
+          <p>For information and statistics about the history of voting in Oregon, you can visit <a href="https://www.270towin.com/states/Oregon">270 To Win</a></p>
           <h2>How voting works</h2>
+          <p>You can learn about how voting works in Oregon at <a href="http://sos.oregon.gov/voting/Pages/voteinor.aspx">this website</a></p>
+        </div>
       </div>
-
     </div>
   </body>
 </html>
